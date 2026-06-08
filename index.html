@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khushnandan - Portfolio</title>
+  <link rel="icon" type="poertfolio website/Khush.jpg" href="/Khush.jpg">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Cursor glow effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ─── NAV ──────────────────────────────────────── -->
+  <nav>
+    <a href="#hero" class="nav-logo">KH.K</a> <!-- Change YN to your initials -->
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-tag">
+      <span></span>
+      🚀 Fresher | Open to Opportunities <!-- Change this status -->
+    </div>
+
+    <h1 class="hero-title">
+      Hi, I'm<br>
+      <em>Khushnandan Kumar</em><br> <!-- ← Change your name here -->
+      Developer
+    </h1>
+
+    <p class="hero-sub">
+      I build beautiful, fast, and accessible web experiences.
+      Passionate about clean code and thoughtful design.
+      <!-- ← Write your own 1–2 line intro -->
+    </p>
+
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+      <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+    </div>
+
+    <div class="hero-scroll">Scroll</div>
+  </section>
+
+  <!-- ─── ABOUT ─────────────────────────────────────── -->
+  <section id="about">
+    <div class="about-image-wrap reveal">
+      <div class="about-image">
+        <!-- UNCOMMENT and set src to add your photo: -->
+        <img src="/images/Khush.jpg " alt="Khushnandan" />
+      </div>
+      <div class="about-card">
+        <div class="about-card-num">2+</div> <!-- ← Years of exp -->
+        <div class="about-card-label">Years of<br>Experience</div>
+      </div>
+    </div>
+
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2>Turning ideas into reality with code.</h2>
+      <p>
+        Hey! I'm a CSE student with a deep interest in Artificial
+        Intelligence and Machine Learning. When I'm not training
+        models, I'm building cool web projects and exploring
+        what technology can do next.
+      </p>
+      <p>
+        Beyond the screen, I'm a Volleyball and Badminton enthusiast
+        from North India. The competitive spirit of sports keeps me
+        focused, resilient, and always hungry to win — on the court
+        and in code.
+      </p>
+
+      <div class="skills-list">
+        <!-- ← Add/remove your skills -->
+        <span class="skill-chip">HTML</span>
+        <span class="skill-chip">CSS</span>
+        <span class="skill-chip">JavaScript</span>
+        <span class="skill-chip">React</span>
+        <span class="skill-chip">Node.js</span>
+        <span class="skill-chip">Git</span>
+        <span class="skill-chip">Figma</span>
+        <span class="skill-chip">Responsive Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─────────────────────────────────── -->
+  <section id="projects">
+    <div class="section-label reveal">Projects</div>
+    <h2 class="section-title reveal">Things I've Built</h2>
+    <p class="section-desc reveal">A selection of projects I'm proud of. Each one taught me something new.</p>
+
+    <div class="projects-grid">
+
+      <!-- Frontend Roadmap Project -->
+      <div class="project-card reveal">
+        <div class="project-thumb" style padding:0; overflow:hidden>
+          <img src="/designs/frontend-roadmap-desktop-design.png" alt="Frontend Roadmap"
+            style="width:100%; height:100%; object-fit:cover; display:block;" />
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+          </div>
+          <h3 class="project-title">Frontend Roadmap</h3>
+          <p class="project-desc">
+            A structured roadmap covering the core technologies of
+            Frontend Development — HTML, CSS, and JavaScript along
+            with popular frameworks and libraries.
+          </p>
+          <div class="project-links">
+            <a href="https://happyfrontenddev.netlify.app/" class="project-link">↗ Live Demo</a>
+            <a href="#" class="project-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 1 — Duplicate this card for more projects -->
+      <div class="project-card reveal">
+        <div class="project-thumb">🛒</div> <!-- ← Change emoji or add screenshot -->
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JS</span>
+          </div>
+          <h3 class="project-title">E-Commerce UI</h3> <!-- ← Project name -->
+          <p class="project-desc">
+            A fully responsive e-commerce front-end with product listing, cart, and checkout flow.
+            <!-- ← Describe your project -->
+          </p>
+          <div class="project-links">
+            <a href="#" class="project-link">↗ Live Demo</a> <!-- ← Add real links -->
+            <a href="#" class="project-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card reveal">
+        <div class="project-thumb">📝</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">React</span>
+            <span class="project-tag">CSS</span>
+          </div>
+          <h3 class="project-title">Task Manager App</h3>
+          <p class="project-desc">
+            A drag-and-drop task manager with local storage persistence and dark/light mode.
+          </p>
+          <div class="project-links">
+            <a href="#" class="project-link">↗ Live Demo</a>
+            <a href="#" class="project-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card reveal">
+        <div class="project-thumb">🌤️</div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="project-tag">JS</span>
+            <span class="project-tag">API</span>
+          </div>
+          <h3 class="project-title">Weather Dashboard</h3>
+          <p class="project-desc">
+            Real-time weather app using OpenWeatherMap API with animated backgrounds based on conditions.
+          </p>
+          <div class="project-links">
+            <a href="#" class="project-link">↗ Live Demo</a>
+            <a href="#" class="project-link">⌥ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-label">Contact</div>
+    <h2 class="contact-title reveal">Let's Work<br><em>Together.</em></h2>
+    <p class="reveal">
+      Have a project in mind or just want to say hi? My inbox is always open.
+    </p>
+    <a href="Khushnandan.codes@gmail.com" class="btn btn-primary reveal">
+      <!-- ← Change email above -->
+      ✉ Say Hello
+    </a>
+
+    <div class="social-links">
+      <a href="https://github.com/khushnandan028" class="social-link">
+        ⌥ GitHub
+      </a>
+      <a href="https://linkedin.com/in/khushnandan-kumar01/" class="social-link">
+        in LinkedIn
+      </a>
+      <a href="https://twitter.com/Khushnanda73505" class="social-link">
+        𝕏 Twitter
+      </a>
+      <a href="https://instagram.com/khushnandan_yadav01/" class="social-link">
+        ◎ Instagram
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────── -->
+  <footer>
+    <p>Designed & Built by <strong>Khushnandan</strong> · 2025</p> <!-- ← Your name + year -->
+  </footer>
+
+  <!-- ─── SCRIPTS ───────────────────────────────────── -->
+  <script>
+    // Cursor glow
+    const glow = document.getElementById('cursorGlow');
+    document.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top = e.clientY + 'px';
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Active nav link highlight
+    const sections = document.querySelectorAll('section[id]');
+    const links = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 200) current = sec.id;
+      });
+      links.forEach(link => {
+        link.style.color = link.getAttribute('href') === '#' + current
+          ? 'var(--text)' : '';
+      });
+    });
+  </script>
+</body>
+
+</html>
